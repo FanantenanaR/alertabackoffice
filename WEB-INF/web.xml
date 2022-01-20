@@ -60,6 +60,34 @@
         <servlet-name>AttribuerRegion</servlet-name>
         <servlet-class>controller.AttribuerRegion</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>controller.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VerificationLogin</servlet-name>
+        <servlet-class>controller.VerificationLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Inscription</servlet-name>
+        <servlet-class>controller.Inscription</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VerificationInscription</servlet-name>
+        <servlet-class>controller.VerificationInscription</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Minicarte</servlet-name>
+        <servlet-class>controller.Minicarte</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>controller.Logout</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LogOut</servlet-name>
+        <servlet-class>controller.LogOut</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ListTypeSignalement</servlet-name>
         <url-pattern>/ListTypeSignalement</url-pattern>
@@ -119,6 +147,34 @@
     <servlet-mapping>
         <servlet-name>AttribuerRegion</servlet-name>
         <url-pattern>/AttribuerRegion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VerificationLogin</servlet-name>
+        <url-pattern>/VerificationLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Inscription</servlet-name>
+        <url-pattern>/Inscription</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VerificationInscription</servlet-name>
+        <url-pattern>/VerificationInscription</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Minicarte</servlet-name>
+        <url-pattern>/Minicarte</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogOut</servlet-name>
+        <url-pattern>/LogOut</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
